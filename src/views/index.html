@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link del css  -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- links de los iconos  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Luciano Verchelli</title>
+  </head>
+  <body>
+    <!-- comienzo del header  -->
+    <header>
+      <!-- perfil  -->
+      <div class="profile">
+        <img src="image/prot2.png" alt="" width="300px" />
+        <h1>Luciano Verchelli</h1>
+        <div class="iconos-social">
+          <a href="https://www.instagram.com/lucho_gv/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/luciano-g-verchelli/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Luchito111" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- barra de navegación  -->
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#inicio" class="active"
+              ><i class="fa-solid fa-house"></i> Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#sobreMi"><i class="fa-solid fa-user"></i>Sobre Mi</a>
+          </li>
+          <li>
+            <a href="#skill"><i class="fa-solid fa-book"></i>Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio"
+              ><i class="fa-solid fa-briefcase"></i>Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#contacto"><i class="fa-solid fa-envelope"></i>Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- footer -->
+      <div class="footer">
+        <p>
+          &copy; Copyright 2023 <br />
+          Designed By:
+          <a href="https://www.linkedin.com/in/luciano-g-verchelli/"
+            target="_blank">Luciano Verchelli</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <!-- mobile nav toggle -->
+
+    <i class="fa-solid fa-bars" id="menuBtn"></i>
+
+    <!-- final  del header  -->
+
+    <!--  TODO EL CONTENIDO DEL BODY  -->
+    <main>
+      <!-- comienzo del inicio -->
+      <section id="inicio">
+        <div class="inicio-row">
+          <h1>
+            Hola, me llamo <br />
+            Luciano Verchelli <span>.</span>
+          </h1>
+          <p>
+            Soy <span class="auto-input">Desarrollador Web Full Stack</span>
+          </p>
+        </div>
+      </section>
+      <!-- final del inicio -->
+
+      <!-- sobre mi inicio -->
+      <section id="sobreMi">
+        <h1 class="sub-heading">Sobre mi</h1>
+        <div class="divider"></div>
+        <p>
+ Mi nombre es Luciano tengo 23 años, Mi objetivo es desarrollar una carrera sólida en este rubro en
+          constante evolución. <br />
+          Me considero una persona proactiva, siempre dispuesta a asumir nuevos
+          desafíos y buscar soluciones innovadoras. <br />
+          La persistencia es uno de mis principales atributos, ya que no me
+          rindo fácilmente frente a los obstáculos. <br />
+          Además, mi flexibilidad me permite adaptarme rápidamente a los cambios
+          y aprender de ellos. <br />
+        </p>
+        <br />
+
+        <div class="about-col">
+          <!-- img -->
+
+          <div class="img-col">
+            <img src="image/prot2.png" alt="" />
+          </div>
+
+          <!-- INFORMACION -->
+
+          <div class="info-col">
+            <h2>Desarrollador Web Full Stack</h2>
+            <p>
+                Como desarrollador web full stack, mi trabajo consiste en crear aplicaciones y sitios web completos. <br>
+                 Me encargo de diseñar y construir interfaces de usuario atractivas y funcionales utilizando lenguajes de programación front-end como HTML, CSS, JavaScript y React. <br>
+                  Además, desarrollo la lógica empresarial y la interacción con bases de datos mediante tecnologías back-end como Node.js, Express.js. <br>
+                  
+            </p>
+            <div class="icon-list-col">
+              <!-- left side col -->
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sobre mi final -->
+
+      <!-- ----------------------------------------------------RESUMEN START------------------------------------------------------------------- -->
+      <section id="resume">
+        <h1 class="sub-heading">Historial</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+        </p>
+
+        <div class="resume-row">
+          <!-- left col -->
+
+          <div class="resume-cols">
+            <h2>Informacion Personal</h2>
+
+            <div class="my-info">
+              <h3>Luciano Verchelli</h3>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Cupiditate sit nisi aliquid, quia quod error voluptatem unde
+                voluptatibus autem facere optio ipsum sapiente laborum, sunt
+                nesciunt eveniet ipsam ipsa ut.
+              </p> -->
+              <ul>
+                <li>Argentina, Buenos Aires, El Talar.</li>
+                <li>Fecha de nacimiento: 13/09/2000</li>
+                <li>tel: (11)53340972</li>
+                <li>Mail: lucianogverchelli@gmail.com</li>
+                <li>idiomas: Español(nativo) Ingles-intermedio</li>
+              </ul>
+            </div>
+
+
+
+            <div class="my-edu">
+              <h3>Historial Academico</h3>
+              <span class="sp-box">2022-2023</span>
+              <p><strong>Digital House - Programacion web Full Stack</strong></p>
+              <p>
+                Actividades y grupos: Se creó un sitio web de e-commerce desde 0
+                con node.js (framework express) con énfasis en el contenido
+                mobile-first, responsive. se diseñó y pobló una base de datos
+                con MySQL que se usó vía Sequelize. Se implementó una API
+                RESTful para una aplicación de React. Todo el curso se transitó
+                en un ambiente de trabajo colaborativo, usando scrum como
+                metodología de trabajo.
+              </p>
+            </div>
+          </div>
+
+          <!-- right col -->
+          <div class="resume-cols">
+            <h2>Experiencia Profecional</h2>
+            <div class="pro-exp">
+              <h3>Desarrollador Trainee/jr</h3>
+              <span class="sp-box"> 2022-2023 </span>
+              <p>Proyecto integrador realizado en el marco de Digital House.</p>
+              <br />
+              <ul>
+                <li>
+                  Desarrollo de una aplicación web que es un e-commerce
+                  utilizando HTML para la estructura, CSS para el diseño y
+                  JavaScript para interacciones y/o validaciones del lado del
+                  cliente.
+                </li>
+                <li>
+                  El diseño y desarrollo del FrontEnd toma las buenas practicas
+                  de hacer el sitio responsive.
+                </li>
+                <li>
+                  El BackEnd y la API REST fue desarrollado en JavaScript, con
+                  nodeJS y ExpresJS como framework de apoyo utilizando MVC.
+                </li>
+                <li>
+                  diseñamos y utilizamos SQL para el armado y organizacion de la
+                  base de datos relacional con la que luego interactuamos a
+                  través de MySQL.
+                </li>
+                <li>
+                  todo el proyecto se desarrollo siguiendo los lineamientos de
+                  Metodologías Ágiles(scrum), y se gestiono utilizando git para
+                  el control de versiones, en un repositorio privado de trabajo
+                  colaborativo y organizado.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- -------------------------------------------------------RESUMEN END---------------------------------------------------------------------- -->
+      
+      <!-- -----------------------------------------SKILLS START------------------------------------------------------------- -->
+      <section id="skill">
+          <h1 class="sub-heading">Skill Set</h1>
+          <div class="divider"></div>
+        </section>
+<!-- SKILL1 -->
+<div class="container">
+    <div class="skill-box">
+    <div class="skill-titulo">
+        <div class="skill-img">
+            <img src="image/javascript_icon_130900.png"  class="skill-icon">
+        </div>
+        <h3>JavaScript</h3>
+    </div>
+</div>
+
+
+        <!-- SKILL2 -->
+
+            <div class="skill-box">
+            <div class="skill-titulo">
+                <div class="skill-img">
+                    <img src="image/file_type_html_icon_130541.png"  class="skill-icon">
+                </div>
+                <h3>HTML</h3>
+            </div>
+
+        </div>
+
+        <!-- SKILL3 -->
+
+            <div class="skill-box">
+            <div class="skill-titulo">
+                <div class="skill-img">
+                    <img src="image/file_type_css_icon_130661.png"  class="skill-icon">
+                </div>
+                <h3>CSS</h3>
+            </div>
+        </div>
+
+
+        <!-- SKILL4-->
+
+            <div class="skill-box">
+            <div class="skill-titulo">
+                <div class="skill-img">
+                    <img src="image/file_type_reactjs_icon_130205.png"  class="skill-icon">
+                </div>
+                <h3>ReactJs</h3>
+            </div>
+        </div>
+
+                    <!-- SKILL5 -->
+
+            <div class="skill-box">
+            <div class="skill-titulo">
+                <div class="skill-img">
+                    <img src="image/nodejs_plain_logo_icon_146409.png"  class="skill-icon">
+                </div>
+                <h3>NodeJS</h3>
+            </div>
+        </div>
+
+   
+        <!-- SKILL6-->
+
+            <div class="skill-box">
+            <div class="skill-titulo">
+                <div class="skill-img">
+                    <img src="image/mysql_original_wordmark_logo_icon_146417.png"  class="skill-icon">
+                </div>
+                <h3>MySQL</h3>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+      <!-- -----------------------------------------SKILLS END------------------------------------------------------------- -->
+
+      <!-- -------------------------------------------------------portfolio INICIO---------------------------------------------------------------- -->
+
+      <section id="portfolio">
+        <h1 class="sub-heading">Portfolio</h1>
+        <div class="divider"></div>
+
+
+
+        <div class="port-row">
+          <!-- portfolio 1 -->
+
+          <div class="port-item">
+            <div class="port-img">
+              <img src="image/prot5.png" alt=".... imagen" />
+            </div>
+
+            <div class="port-info">
+              <h4>Javascript</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                totam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <!-- portfolio 2 -->
+
+          <div class="port-item">
+            <div class="port-img">
+              <img src="image/prot5.png" alt=".... imagen" />
+            </div>
+
+            <div class="port-info">
+              <h4>Javascript</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                totam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <!-- portfolio 3 -->
+
+          <div class="port-item">
+            <div class="port-img">
+              <img src="image/prot5.png" alt=".... imagen" />
+            </div>
+
+            <div class="port-info">
+              <h4>Javascript</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                totam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------- portfolio FINAL ---------------------------------------------------------------- -->
+   <!-- -----------------------------------------------Contacto inicio ------------------------------------------------------------------ -->
+<section id="contacto">
+  <h1 class="sub-heading">Contacto</h1>
+  <div class="divider"></div>
+  <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, asperiores.</p>
+
+<div class="contact-row">
+  <!-- left col -->
+<div class="contact-left">
+
+<!-- email box -->
+
+<div class="icon-box">
+  <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+  <div class="info">
+    <h4>Email:</h4>
+    <p>lucianogverchelli@gmail.com</p>
+  </div>
+</div>
+
+<!-- Telefono box -->
+
+<div class="icon-box">
+  <div class="icon"><i class="fa-solid fa-phone"></i></div>
+  <div class="info">
+    <h4>Telefono:</h4>
+    <p>+54 11 53340972</p>
+  </div>
+</div>
+<!--  localización box -->
+
+<div class="icon-box">
+  <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+  <div class="info">
+    <h4>localización:</h4>
+    <p>Argentina, Buenos Aires, El Talar.</p>
+  </div>
+</div>
+
+<!-- map -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26313.790275609634!2d-58.6746732792159!3d-34.471846842026196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca3630ce51b53%3A0x6cb44ad91aa47d6c!2sEl%20Talar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689659282001!5m2!1ses!2sar" width="100%" height="250" style="border: 4;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</div>
+<!-- right col -->
+<div class="contact-right">
+
+
+<form action="">
+
+
+<!-- name -->
+<input type="text" name="name" id="name" placeholder="Ej: Gabriel">
+<input type="Email" name="email" id="email" placeholder="Tu Email">
+<input type="tel" name="tel" id="tel" placeholder="Celular">
+<textarea name="msg" id="msg"  rows="9" placeholder="Tu Mensaje"></textarea>
+<input type="submit" value="Enviar" >
+
+
+
+</form>
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+   <!-- -----------------------------------------------Contacto Final------------------------------------------------------------------ -->
+    </main>
+    <!-- FINAL DEL HOME  -->
+
+    <!-- link del js  -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
