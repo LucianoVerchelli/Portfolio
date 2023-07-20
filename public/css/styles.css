@@ -626,7 +626,7 @@ main {
 #portfolio .port-row {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 35px;
 }
 #portfolio .port-row .port-item {
@@ -691,6 +691,9 @@ main {
 @media only screen and (max-width: 650px) {
   #portfolio {
     padding: 50px 10px;
+  }
+  #portfolio .port-row .port-item .port-info h4 + p{
+    font-size: 10px;
   }
 
   #portfolio .port-row {
