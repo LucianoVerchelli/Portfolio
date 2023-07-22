@@ -348,7 +348,7 @@ Proyecto integrador que consistia en replicar el diseño de Mercado libre.
   <h1 class="sub-heading">Contacto</h1>
   <div class="divider"></div>
 
-  
+   
 <div class="contact-row">
   <!-- left col -->
 <div class="contact-left">
@@ -391,16 +391,19 @@ Proyecto integrador que consistia en replicar el diseño de Mercado libre.
 <div class="contact-right">
 
 
-<form action="">
+<form action="https://formsubmit.co/7d74913d5c6921cd8ef7f6ed01cddada" method="POST">
 
 
 <!-- name -->
-<input type="text" name="name" id="name" placeholder="Nombre">
-<input type="Email" name="email" id="email" placeholder="Tu Email">
-<input type="text" name="asunto" id="asunto" placeholder="Asunto">
-<textarea name="msg" id="msg"  rows="9" placeholder="Tu Mensaje"></textarea>
+<input type="text" name="name" id="name" placeholder="Nombre" required>
+<input type="Email" name="email" id="email" placeholder="Tu Email"required>
+<input type="text" name="asunto" id="asunto" placeholder="Asunto"required>
+<textarea name="msg" id="msg"  rows="9" placeholder="Tu Mensaje" required></textarea>
 <input type="submit" value="Enviar" >
 
+<!-- // form api // -->
+<input type="hidden" name="_next" value="http://localhost:8000/">
+<input type="hidden" name="_captcha" value="false">
 
 
 </form>

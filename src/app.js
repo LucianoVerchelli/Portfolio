@@ -22,4 +22,4 @@ app.use("/", indexRoute);
 
 
 // pongo a escuchar el servidor en el puerto 3000 
-app.listen(3000, () => console.log('Server is running in http://localhost:3000'));
+app.listen(8000, () => console.log('Server is running in http://localhost:8000'));
