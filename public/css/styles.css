@@ -25,7 +25,7 @@
 header {
   height: 100%;
   width: 300px;
-  padding: 15px 30px;
+  padding: 22px 30px;
   background-color: var(--sideBGColor);
   overflow-y: auto;
   position: fixed;
@@ -176,10 +176,9 @@ main {
 #inicio {
   height: 100vh;
   width: 100%;
-  background-image: url(../image/fondo-2.png);
+  background: url(../image/fondo-2.png) no-repeat center center fixed;
   backdrop-filter: blur(20px);
   background-size: cover;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -276,7 +275,6 @@ main {
 #sobreMi .about-col .img-col img {
   flex-basis: 35%;
   border-radius: 50%;
-  border: 1px solid var(--sideBGColor);
   text-align: center;
 }
 #sobreMi .about-col .info-col {
@@ -292,7 +290,7 @@ main {
   text-align: center;
 }
 #sobreMi .about-col .info-col p {
-  color: var(--textColor);
+  color: black;
   font-size: 15px;
   letter-spacing: 0.5px;
   font-style: italic;
@@ -335,7 +333,7 @@ main {
     margin-left: 10px;
   }
   #sobreMi .about-col .img-col img {
-    width: 50%;
+    width: 90%;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -569,13 +567,13 @@ main {
 #resume .resume-row .resume-cols .my-edu span + p {
   color: var(--textColor);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 #resume .resume-row .resume-cols .my-edu span + p + p {
   color: var(--textColor);
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   padding-bottom: 15px;
 }
 #resume .resume-row .resume-cols .pro-exp {
@@ -597,7 +595,7 @@ main {
 #resume .resume-row .resume-cols .pro-exp p {
   color: var(--textColor);
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
 }
 #resume .resume-row .resume-cols .pro-exp ul li {
