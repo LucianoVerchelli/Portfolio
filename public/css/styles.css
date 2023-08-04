@@ -759,7 +759,7 @@ transition: 0.3s;
 }
 #contacto .contact-row .contact-left .icon-box .info h4 + p{
 color: var(--textColor);
-font-size: 15px;
+font-size: 12px;
 font-weight: 500;
 }
 #contacto .contact-row .contact-right{
